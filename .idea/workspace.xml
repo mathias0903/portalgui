@@ -9,21 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java" line="29" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6935f474-bc09-4459-a017-e664cc7b2a91" name="Default" comment="initial commit #2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/Core.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/Core.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/handler/ConfigHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/handler/ConfigLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/handler/GUIHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/handler/GUIHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/listeners/PlayerJoinListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/listeners/PortalListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/listeners/PortalListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PortalGUI/me/admin/portalgui/listeners/PortalListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PortalGUI/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PortalGUI/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" afterDir="false" />
-    </list>
+    <list default="true" id="6935f474-bc09-4459-a017-e664cc7b2a91" name="Default" comment="initial commit #2" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,8 +71,8 @@
       <file leaf-file-name="ClickListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="323">
+              <caret line="19" column="118" lean-forward="true" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -319,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528026449790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="initial commit #2">
+      <created>1528031520131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528031520158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -360,11 +353,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit #2" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Command added" />
     <MESSAGE value="PluginYML updated&#10;Command added, finished subject to testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="PluginYML updated&#10;Command added, finished subject to testing" />
+    <MESSAGE value="initial commit #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit #2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="323">
+          <caret line="19" column="118" lean-forward="true" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="118" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
