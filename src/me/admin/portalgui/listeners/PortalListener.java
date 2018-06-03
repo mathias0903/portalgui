@@ -38,7 +38,7 @@ public class PortalListener implements Listener {
         Block southBlock = pBlock.getRelative(BlockFace.SOUTH);
         Block westBlock = pBlock.getRelative(BlockFace.WEST);
         Block eastBlock = pBlock.getRelative(BlockFace.EAST);
-        if (p.getWorld().getName().equalsIgnoreCase("World")) {
+        if (p.getWorld().getName().equalsIgnoreCase("Tutorial")) {
             if (northBlock.getType() == Material.PORTAL || southBlock.getType() == Material.PORTAL || westBlock.getType() == Material.PORTAL || eastBlock.getType() == Material.PORTAL || pBlock.getType() == Material.PORTAL) {
                 Core.getPlugin().getLogger().info("dddd");
                 event.getPlayer().teleport(loc);
@@ -49,7 +49,7 @@ public class PortalListener implements Listener {
     }
     @EventHandler
     public void onPortalTeleportEvent(PlayerPortalEvent event){
-        if(event.getFrom().getWorld().getName().equalsIgnoreCase("World")){
+        if(event.getFrom().getWorld().getName().equalsIgnoreCase("Tutorial")){
             event.setCancelled(true);
         }
     }

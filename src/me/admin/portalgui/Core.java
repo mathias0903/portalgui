@@ -3,6 +3,7 @@ package me.admin.portalgui;
 import me.admin.portalgui.commands.CommandAccept;
 import me.admin.portalgui.commands.PortalOpen;
 import me.admin.portalgui.listeners.ClickListener;
+import me.admin.portalgui.listeners.LaunchPads;
 import me.admin.portalgui.listeners.PortalListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -22,7 +23,7 @@ public class Core extends JavaPlugin implements Listener {
 
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin started without errors!");
 
-        registerEvents(this, new PortalListener(this), new ClickListener());
+        registerEvents(this, new PortalListener(this), new ClickListener(), new LaunchPads());
     }
 
     public void onDiable(){
