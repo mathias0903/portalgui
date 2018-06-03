@@ -8,8 +8,14 @@ commands:
     nationsgui:
       usage: /<command>
       description: command
+    confirmnation:
+      usage: /<command>
+      description: command
 
 permissions:
     nationsgui.open:
       default: op
       description: Allows the player access to forcibly open the GUI
+    nationsgui.accept:
+      default: op
+      description: Allows the player to confirm choice
