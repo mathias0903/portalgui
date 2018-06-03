@@ -16,7 +16,7 @@ public class PortalOpen implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String commandlabel, String args[]){
         if(commandlabel.equalsIgnoreCase("nationsgui")){
             if(!(sender instanceof Player)) {
-                sender.sendMessage(ChatColor.RED + "You can not use this command!") {
+                sender.sendMessage(ChatColor.RED + "You can not use this command!");
                     return true;
                 }
                 Player p = (Player) sender;
@@ -30,15 +30,24 @@ public class PortalOpen implements CommandExecutor {
                     return true;
                 }
                 if(args.length == 1){
-                    Player target = (Player) target.getUniqueId();
+                    Player target = Bukkit.getPlayer(args[0]);
                         if(target == null){
                             p.sendMessage(ChatColor.RED + "Can not find player " + ChatColor.GOLD + args[0]);
+                            return true;
                         }
+                        if(args.length > 1){
+                            p.sendMessage(ChatColor.RED + "Incorrect Syntax! " + ChatColor.GOLD + "/nationsgui [playername]");
+                            return true;
+                        }
+
+                        target.openInventory(GUIHandler.invent);
+                        target.sendMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has forcibly opened the Nation Selector for you!");
+                        p.sendMessage(ChatColor.GREEN + "You have successfully opened the NationsGUI for " + ChatColor.GOLD + args[0] + ChatColor.GREEN + "!");
+                        return true;
                 }
             }
 
 
-        }
         return true;
     }
 
