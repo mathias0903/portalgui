@@ -6,12 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java" line="29" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6935f474-bc09-4459-a017-e664cc7b2a91" name="Default" comment="initial commit #2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/BennyTibs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PortalOpen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PortalOpen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +53,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GUIHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="451">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +77,7 @@
       <file leaf-file-name="ClickListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="204">
               <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,8 +89,8 @@
       <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,18 +123,18 @@
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/commands/CommandClose.java" />
-        <option value="$PROJECT_DIR$/src/plugin.yml" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java" />
-        <option value="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/Messages.java" />
+        <option value="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" />
+        <option value="$PROJECT_DIR$/src/plugin.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -289,6 +301,14 @@
       <option name="presentableId" value="Default" />
       <updated>1527933487812</updated>
     </task>
+    <task id="LOCAL-00001" summary="Command added">
+      <created>1528025919842</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528025919843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -331,7 +351,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit #2" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Command added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,13 +568,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/CommandClose.java" />
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/CommandClose.java" />
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigLoader.java" />
     <entry file="jar://$USER_HOME$/Desktop/trial/craftbukkit.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -574,10 +588,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/Messages.java" />
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -586,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="204">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -594,11 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/Messages.java" />
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="451">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -607,11 +621,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="459">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
         </state>
       </provider>
     </entry>
