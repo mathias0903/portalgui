@@ -5,6 +5,11 @@ main: me.admin.portalgui.Core
 description: Plugin
 
 commands:
-    closeinv:
+    nationsgui:
       usage: /<command>
       description: command
+
+permissions:
+    nationsgui.open:
+      default: op
+      description: Allows the player access to forcibly open the GUI

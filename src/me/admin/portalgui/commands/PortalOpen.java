@@ -29,16 +29,18 @@ public class PortalOpen implements CommandExecutor {
                     p.sendMessage(ChatColor.GREEN + "NationsGUI forcibly opened by player!");
                     return true;
                 }
+            if(args.length != 1 && args.length != 0){
+                p.sendMessage(ChatColor.RED + "Incorrect Syntax! " + ChatColor.GOLD + "/nationsgui [playername]");
+                return true;
+            }
+
                 if(args.length == 1){
                     Player target = Bukkit.getPlayer(args[0]);
                         if(target == null){
                             p.sendMessage(ChatColor.RED + "Can not find player " + ChatColor.GOLD + args[0]);
                             return true;
                         }
-                        if(args.length > 1){
-                            p.sendMessage(ChatColor.RED + "Incorrect Syntax! " + ChatColor.GOLD + "/nationsgui [playername]");
-                            return true;
-                        }
+
 
                         target.openInventory(GUIHandler.invent);
                         target.sendMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has forcibly opened the Nation Selector for you!");

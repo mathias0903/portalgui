@@ -17,12 +17,12 @@ public class ClickListener implements Listener{
         if (event.getInventory().getName().equalsIgnoreCase(ChatColor.GREEN + "Nation Selector")) {
 
             Player p = (Player) event.getWhoClicked();
-            if (event.getCurrentItem().getType() == Material.DIAMOND_BLOCK) {
+            if (event.getCurrentItem().getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.GREEN + "Acardia")) {
                 event.setCancelled(true);
                 p.closeInventory();
                 p.sendMessage(ChatColor.GREEN + "Do stuff");
             }
-            if (event.getCurrentItem().getType() == Material.EMERALD_BLOCK) {
+            if (event.getCurrentItem().getType() == Material.PACKED_ICE) {
                 event.setCancelled(true);
                 p.closeInventory();
                 p.sendMessage(ChatColor.AQUA + "Do stuff");

@@ -10,13 +10,17 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * PortalGUI started
  */
 public class GUIHandler {
 
+
+
     Core core;
+
 
     private GUIHandler(Core core){
         this.core = core;
@@ -24,37 +28,42 @@ public class GUIHandler {
 
     public static Inventory invent = Bukkit.createInventory(null, 9, ChatColor.GREEN + "Nation Selector");
 
-    static {
-        createItems(Material.WOOD, invent, 3, ChatColor.GREEN + "Acardia", ChatColor.GRAY + "The largest and most thriving nation, it’s residents are strong willed and passionate. And will stop at nothing for what is right!");
-    }
 
-    static {
-        createItems(Material.PACKED_ICE, invent, 5, ChatColor.AQUA + "Silverkeep", ChatColor.GRAY + ": In the harsh climates of the north, the people of Silverkeep have become wary to outsiders. Striving on their powerful control of ancient magic!");
-    }
 
-    public static void createItems(Material material, Inventory inv, int Slot, String name, String lore) {
+    public static void createItems(Material material, Inventory inv, int Slot, String name, String lore, String lore2, String lore3, String lore4, String lore5) {
         ItemStack item = new ItemStack(material);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(name);
         ArrayList<String> Lore = new ArrayList<String>();
-        Lore.add(lore);
-        meta.setLore(Lore);
+        meta.setLore(Arrays.asList(lore,lore2, lore3, lore4, lore5));
         item.setItemMeta(meta);
 
         inv.setItem(Slot, item);
     }
 
-    public static ItemStack items(ItemStack itemStack, String name, String lore, Enchantment enchant, int level) {
+    public static ItemStack items(ItemStack itemStack, String name, Enchantment enchant, int level) {
         ItemStack item = new ItemStack(itemStack);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(name);
         ArrayList<String> Lore = new ArrayList<String>();
-        Lore.add(lore);
         meta.setLore(Lore);
         item.setItemMeta(meta);
         item.addEnchantment(enchant, level);
         return item;
 
+
+
     }
+    static {
+        createItems(Material.LOG, invent, 3, ChatColor.GREEN + "Acardia", ChatColor.GRAY + "The largest and most thriving nation,",ChatColor.GRAY + "it’s residents are strong willed", ChatColor.GRAY + "and passionate. ", " You will stop at nothing for what is right!", null);
+    }
+
+    static {
+        createItems(Material.PACKED_ICE, invent, 5, ChatColor.AQUA + "Silverkeep", ChatColor.GRAY + "In the harsh climates of the north, ",ChatColor.GRAY +  "the people of Silverkeep", ChatColor.GRAY + "have become wary to outsiders.",  "You'll strive on your powerful", "control of ancient magic.");
+    }
+;
+
+
+
 
 }
