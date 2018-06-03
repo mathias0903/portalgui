@@ -10,17 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6935f474-bc09-4459-a017-e664cc7b2a91" name="Default" comment="initial commit #2">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PortalGUI_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PortalGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +30,32 @@
       <file leaf-file-name="PortalListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PortalOpen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUIHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,7 +66,7 @@
       <file leaf-file-name="ClickListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="204">
               <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -59,15 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Core.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="23" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1262#1263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,14 +110,16 @@
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/me/admin/portalgui/handlers/GUIHandler.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/GUIHandler.java" />
         <option value="$PROJECT_DIR$/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/commands/CommandClose.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java" />
         <option value="$PROJECT_DIR$/src/me/admin/portalgui/Core.java" />
+        <option value="$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java" />
+        <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/Messages.java" />
+        <option value="$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java" />
+        <option value="$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java" />
       </list>
     </option>
   </component>
@@ -119,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +158,13 @@
               <item name="PortalGUI" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="portalgui" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PortalGUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PortalGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="portalgui" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -157,6 +179,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -275,7 +298,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -286,21 +308,22 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32943678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -313,7 +336,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -321,6 +344,36 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -347,32 +400,12 @@
           <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="103" selection-start-line="18" selection-start-column="103" selection-end-line="18" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -399,8 +432,6 @@
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,8 +479,6 @@
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -476,33 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigLoader.java" />
     <entry file="jar://$USER_HOME$/Desktop/trial/craftbukkit.jar!/org/bukkit/plugin/java/JavaPlugin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -510,30 +513,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/ConfigHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PortalListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/PlayerJoinListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -542,12 +527,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="23" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/listeners/ClickListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/handler/GUIHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/me/admin/portalgui/commands/PortalOpen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

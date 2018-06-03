@@ -17,6 +17,7 @@ public class PortalListener implements Listener{
     Core core;
 
     public PortalListener(Core core){
+
         this.core = core;
     }
 
