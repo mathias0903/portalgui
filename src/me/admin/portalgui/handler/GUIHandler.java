@@ -25,11 +25,11 @@ public class GUIHandler {
     public static Inventory invent = Bukkit.createInventory(null, 9, ChatColor.GREEN + "Nation Selector");
 
     static {
-        createItems(Material.DIAMOND_BLOCK, invent, 3, ChatColor.GOLD + "Number one", ChatColor.LIGHT_PURPLE + "One");
+        createItems(Material.WOOD, invent, 3, ChatColor.GREEN + "Acardia", ChatColor.GRAY + "The largest and most thriving nation, it’s residents are strong willed and passionate. And will stop at nothing for what is right!");
     }
 
     static {
-        createItems(Material.EMERALD_BLOCK, invent, 5, ChatColor.GOLD + "Number two", ChatColor.LIGHT_PURPLE + "Two");
+        createItems(Material.PACKED_ICE, invent, 5, ChatColor.AQUA + "Silverkeep", ChatColor.GRAY + ": In the harsh climates of the north, the people of Silverkeep have become wary to outsiders. Striving on their powerful control of ancient magic!");
     }
 
     public static void createItems(Material material, Inventory inv, int Slot, String name, String lore) {

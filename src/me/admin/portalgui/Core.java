@@ -1,5 +1,6 @@
 package me.admin.portalgui;
 
+import me.admin.portalgui.commands.PortalOpen;
 import me.admin.portalgui.listeners.ClickListener;
 import me.admin.portalgui.listeners.PortalListener;
 import org.bukkit.Bukkit;
@@ -13,8 +14,12 @@ public class Core extends JavaPlugin implements Listener {
     private static Core plugin;
 
     public void onEnable() {
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin started without errors!");
         plugin = this;
+
+        getCommand("nationsgui").setExecutor(new PortalOpen());
+
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin started without errors!");
+
         registerEvents(this, new PortalListener(this), new ClickListener());
     }
 

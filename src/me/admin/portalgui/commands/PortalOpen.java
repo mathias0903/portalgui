@@ -20,7 +20,7 @@ public class PortalOpen implements CommandExecutor {
                     return true;
                 }
                 Player p = (Player) sender;
-                if (!(p.hasPermission("nations.guiopen"))) {
+                if (!(p.hasPermission("nationsgui.open"))) {
                     p.sendMessage(ChatColor.RED + "You can not use this command, " + ChatColor.GOLD + " please contact a developer if this is not correct!");
                     return true;
                 }
