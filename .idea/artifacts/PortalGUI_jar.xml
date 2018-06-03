@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PortalGUI:jar">
+    <output-path>$USER_HOME$/Desktop/trial/plugins</output-path>
+    <root id="archive" name="PortalGUI.jar">
+      <element id="module-output" name="PortalGUI" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/trial/craftbukkit.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

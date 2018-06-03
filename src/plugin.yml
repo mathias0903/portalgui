@@ -1,0 +1,10 @@
+name: PortalGUI
+author: NPE
+version: PreAlpha
+main: me.admin.portalgui.Core
+description: Plugin
+
+commands:
+    closeinv:
+      usage: /<command>
+      description: command
