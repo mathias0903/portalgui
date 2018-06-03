@@ -26,7 +26,7 @@ public class GUIHandler {
         this.core = core;
     }
 
-    public static Inventory invent = Bukkit.createInventory(null, 9, ChatColor.GREEN + "Nation Selector");
+    public static Inventory invent = Bukkit.createInventory(null, 9, ChatColor.GREEN + "Choose your allegiance!");
 
 
 

@@ -1,5 +1,6 @@
 package me.admin.portalgui;
 
+import me.admin.portalgui.commands.CommandAccept;
 import me.admin.portalgui.commands.PortalOpen;
 import me.admin.portalgui.listeners.ClickListener;
 import me.admin.portalgui.listeners.PortalListener;
@@ -17,6 +18,7 @@ public class Core extends JavaPlugin implements Listener {
         plugin = this;
 
         getCommand("nationsgui").setExecutor(new PortalOpen());
+        getCommand("confirmnation").setExecutor(new CommandAccept());
 
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin started without errors!");
 
