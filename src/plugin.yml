@@ -3,6 +3,7 @@ author: NPE
 version: PreAlpha
 main: me.admin.portalgui.Core
 description: Plugin
+depend: [PermissionsEx]
 
 commands:
     nationsgui:
