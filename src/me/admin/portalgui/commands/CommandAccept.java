@@ -34,13 +34,13 @@ public class CommandAccept implements CommandExecutor {
             }
             if (ClickListener.confirmSilverKeep.contains(p)) {
                 ClickListener.confirmSilverKeep.remove(p);
-                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group set Silverkeep");
+                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group add Silverkeep");
                 p.sendMessage(ChatColor.GREEN + "You have successfully joined your team!" + ChatColor.GOLD + " Silverkeep");
                 return true;
             }
             if (ClickListener.confirmAcardia.contains(p)) {
                 ClickListener.confirmAcardia.remove(p);
-                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group set Acardia");
+                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group add Acardia");
                 p.sendMessage(ChatColor.GREEN + "You have successfully joined your team!" + ChatColor.GOLD + " Acardia");
                     return true;
             }

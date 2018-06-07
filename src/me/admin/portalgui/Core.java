@@ -9,7 +9,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
-import ru.tehkode.permissions.bukkit.PermissionsEx;
 
 
 public class Core extends JavaPlugin implements Listener {
@@ -22,7 +21,7 @@ public class Core extends JavaPlugin implements Listener {
         getCommand("nationsgui").setExecutor(new PortalOpen());
         getCommand("confirmnation").setExecutor(new CommandAccept());
 
-        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Plugin started without errors!");
+        getServer().getConsoleSender().sendMessage(ChatColor.DARK_AQUA + "[PORTALGUI]" + ChatColor.GREEN + "Plugin started without errors!");
 
         registerEvents(this, new PortalListener(this), new ClickListener(), new LaunchPads());
     }
@@ -30,6 +29,7 @@ public class Core extends JavaPlugin implements Listener {
     public void onDiable(){
         plugin  = null;
     }
+
 
     public static void registerEvents(org.bukkit.plugin.Plugin plugin, Listener... listeners) {
         for (Listener listener : listeners) {
