@@ -3,6 +3,7 @@ package me.admin.portalgui;
 import me.admin.portalgui.commands.CommandAccept;
 import me.admin.portalgui.commands.PortalOpen;
 import me.admin.portalgui.listeners.ClickListener;
+import me.admin.portalgui.listeners.Enforcer;
 import me.admin.portalgui.listeners.LaunchPads;
 import me.admin.portalgui.listeners.PortalListener;
 import org.bukkit.Bukkit;
@@ -23,7 +24,7 @@ public class Core extends JavaPlugin implements Listener {
 
         getServer().getConsoleSender().sendMessage(ChatColor.DARK_AQUA + "[PORTALGUI]" + ChatColor.GREEN + "Plugin started without errors!");
 
-        registerEvents(this, new PortalListener(this), new ClickListener(), new LaunchPads());
+        registerEvents(this, new PortalListener(this), new ClickListener(), new LaunchPads(), new Enforcer());
     }
 
     public void onDiable(){
