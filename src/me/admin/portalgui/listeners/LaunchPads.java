@@ -15,7 +15,6 @@ public class LaunchPads implements Listener {
     @EventHandler
     public void onPlayerMove(PlayerMoveEvent e) {
 
-        Vector direction = e.getPlayer().getLocation().getDirection();
         if (e.getPlayer().getLocation().getWorld().getName().equalsIgnoreCase("Tutorial")) {
 
             if (e.getTo().getBlock().getRelative(BlockFace.DOWN).getType() == Material.PORTAL || (e.getTo().getBlock().getRelative(BlockFace.NORTH).getType() == Material.SLIME_BLOCK) || (e.getTo().getBlock().getRelative(BlockFace.EAST).getType() == Material.PORTAL) || (e.getTo().getBlock().getRelative(BlockFace.SOUTH).getType() == Material.PORTAL || (e.getTo().getBlock().getRelative(BlockFace.WEST).getType() == Material.PORTAL))) {

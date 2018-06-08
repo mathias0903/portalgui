@@ -30,12 +30,11 @@ public class GUIHandler {
 
 
 
-    public static void createItems(Material material, Inventory inv, int Slot, String name, String lore, String lore2, String lore3, String lore4, String lore5) {
+    public static void createItems(Material material, Inventory inv, int Slot, String name, String... lore) {
         ItemStack item = new ItemStack(material);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName(name);
-        ArrayList<String> Lore = new ArrayList<String>();
-        meta.setLore(Arrays.asList(lore,lore2, lore3, lore4, lore5));
+        meta.setLore(Arrays.asList(lore));
         item.setItemMeta(meta);
 
         inv.setItem(Slot, item);

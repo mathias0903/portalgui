@@ -2,10 +2,8 @@ package me.admin.portalgui.listeners;
 
 import me.admin.portalgui.Core;
 import me.admin.portalgui.handler.GUIHandler;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Player;
@@ -31,7 +29,7 @@ public class PortalListener implements Listener {
 
         Player p = (Player) event.getPlayer();
 
-        Location loc = new Location(p.getWorld(), 767, 43, 4187);
+        // Location loc = new Location(p.getWorld(), 767, 43, 4187);
         Location loc2 = new Location(p.getWorld(), 0, 4, 0);
 
         Block pBlock = p.getLocation().getBlock();
