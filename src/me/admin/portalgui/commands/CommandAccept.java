@@ -33,7 +33,6 @@ public class CommandAccept implements CommandExecutor {
             }
             if (ClickListener.confirmSilverKeep.contains(p)) {
                 ClickListener.confirmSilverKeep.remove(p);
-                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group remove Acarida");
                 Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group add Silverkeep");
                 p.sendMessage(ChatColor.GREEN + "You have successfully joined the nation" + ChatColor.GOLD + " Silverkeep!");
                 Bukkit.getServer().broadcastMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has joined " + ChatColor.GOLD + "Silverkeep" + ChatColor.GREEN + "!");
@@ -41,7 +40,6 @@ public class CommandAccept implements CommandExecutor {
             }
             if (ClickListener.confirmAcardia.contains(p)) {
                 ClickListener.confirmAcardia.remove(p);
-                Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group add Silverkeep");
                 Core.getPlugin().getServer().dispatchCommand(Bukkit.getConsoleSender(), "pex user " + p.getName() + " group add Acardia");
                 p.sendMessage(ChatColor.GREEN + "You have successfully joined the nation" + ChatColor.GOLD + " Acardia!");
                 Bukkit.getServer().broadcastMessage(ChatColor.GOLD + p.getName() + ChatColor.GREEN + " has joined " + ChatColor.GOLD + "Acardia" + ChatColor.GREEN + "!");
